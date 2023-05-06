@@ -10,5 +10,14 @@
             },
             "command": ".vscode/build.bat",
         },
+        {
+            "label": "zip mod",
+            "type": "shell",
+            "group": {
+                "kind": "none",
+                "isDefault": false
+            },
+            "command": ".vscode/dist.bat"
+        }
     ]
 }
